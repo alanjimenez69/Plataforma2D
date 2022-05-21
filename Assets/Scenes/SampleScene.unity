@@ -16256,7 +16256,7 @@ GameObject:
   - component: {fileID: 1886872631}
   - component: {fileID: 1886872633}
   m_Layer: 0
-  m_Name: Grunt1
+  m_Name: Grunt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16398,6 +16398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0df3382393b1a541a7edb85ee6e968d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 5786395224625441854, guid: c2e79298b6d44434694f69ec1fd21875, type: 3}
   John: {fileID: 1711569014}
 --- !u!1 &1891339636
 GameObject:
