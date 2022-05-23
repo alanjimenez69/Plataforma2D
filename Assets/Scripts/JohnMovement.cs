@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class JohnMovement : MonoBehaviour
 {
+    public GameObject SonidoSalto;
+    public GameObject SonidoCaida;
     public GameObject BulletPrefab;
     public float Speed;
     public float JumpForce;
@@ -40,6 +42,12 @@ public class JohnMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W) && Grounded)
         {
             Jump();
+            Instantiate(SonidoSalto);
+        }
+
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            Instantiate(SonidoCaida);
         }
 
         if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)

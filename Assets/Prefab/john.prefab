@@ -137,6 +137,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac78d70e299cd554d92634baae4576f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SonidoSalto: {fileID: 7092160850034260543, guid: 67c85216627aa7e4ab70021ed09d2656, type: 3}
+  SonidoCaida: {fileID: 6016425546003255474, guid: 96cea900255d2d94d8fabeb56e04dc41, type: 3}
+  BulletPrefab: {fileID: 5786395224625441854, guid: c2e79298b6d44434694f69ec1fd21875, type: 3}
   Speed: 1
   JumpForce: 150
 --- !u!95 &631609776090975882
